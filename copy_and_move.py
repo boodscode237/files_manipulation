@@ -1,11 +1,11 @@
 import shutil
 import os
 
-shutil.copy('/home/abodo/Documents/hello.txt',
-            '/home/abodo/Documents/file_manipulation/copied_to_this_folder.txt')
+shutil.copy('path_to_copy',
+            'path_to_paste')
 
-shutil.move('/home/abodo/Documents/file_manipulation/copied_to_this_folder.txt',
-            '/home/abodo/Documents/hello.txt')
+shutil.move('path_to_move',
+            'path_to_paste')
 
 os.getcwd()
 

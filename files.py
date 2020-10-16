@@ -1,10 +1,10 @@
 import os
 
-print(os.path.exists('/home/abodo/Documents/file_manipulation/file.py'))
-print(os.path.isfile('/home/abodo/Documents/file_manipulation/LICENSE'))
-print(os.path.isdir('/home/abodo/Documents/file_manipulation'))
-print(os.path.getsize('/home/abodo/Documents/file_manipulation/LICENSE'))
-print(os.listdir('/home/abodo/Documents/'))
+print(os.path.exists('path'))
+print(os.path.isfile('path'))
+print(os.path.isdir('path'))
+print(os.path.getsize('path'))
+print(os.listdir('path'))
 
 # Get the total size of a certain Document
 
@@ -18,5 +18,5 @@ def funcname(dirpath):
     return total
 
 
-run = funcname('/home/abodo/Documents')
+run = funcname('path')
 print(run)
